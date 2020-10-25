@@ -3,21 +3,34 @@ entries:
   app1:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-24T23:49:27.153385223-04:00"
+    created: "2020-10-25T00:35:15.738144638-04:00"
     description: A Helm chart for Kubernetes
     digest: 9aebe7462243f0b17d9605c581f377c22199467b058992d07faef7ee5e19dc26
     name: app1
+    type: application
     urls:
-    - https://github.com/farahkhan10/my-helm-charts/releases/download/app1-0.1.0/app1-0.1.0.tgz
+    - https://farahkhan10.github.io/my-helm-charts/.deploy/app1-0.1.0.tgz
     version: 0.1.0
   app2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-10-24T23:49:27.212994315-04:00"
+    created: "2020-10-25T00:35:15.739321308-04:00"
     description: A Helm chart for Kubernetes
     digest: 78d03581a00156a0cd37da8d58c80c75cfe3c11cf0c57db7702da8c9f6e02d03
     name: app2
+    type: application
     urls:
-    - https://github.com/farahkhan10/my-helm-charts/releases/download/app2-0.1.0/app2-0.1.0.tgz
+    - https://farahkhan10.github.io/my-helm-charts/.deploy/app2-0.1.0.tgz
     version: 0.1.0
-generated: "2020-10-24T23:49:26.937134106-04:00"
+  app3:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-10-25T00:35:15.740514914-04:00"
+    description: A Helm chart for Kubernetes
+    digest: 73114c31e3a8581c4de5016f1f785f6912eecad701ae90744e3b0296bd866ae4
+    name: app3
+    type: application
+    urls:
+    - https://farahkhan10.github.io/my-helm-charts/.deploy/app3-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-10-25T00:35:15.736385162-04:00"
